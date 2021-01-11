@@ -12,74 +12,89 @@
 
 <body>
   <header id="header">
-    <img id="header-img" src="img/original_trombones.png">
     <nav id="nav-bar">
+      <img id="header-img" src="img/original_trombones.png">
       <ul>
         <li><a href="#features" class="nav-link">Features</a></li>
         <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
         <li><a href="#pricing" class="nav-link">Pricing</a></li>
       </ul>
     </nav>
-    <div id="header-action">
+  </header>
+  <main>
+    <section id="action">
       <h1 id="title">Handcrafted, home-made masterpieces</h1>
       <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
         <input type="email" id="email" name="email" placeholder="Enter your email address">
         <input type="submit" id="submit" value="Get Started">
       </form>
-    </div>
-  </header>
-  <main>
+    </section>
     <section id="features">
-      <div>
+      <article>
         <i class="fas fa-fire"></i>
         <h2>Premium Materials</h2>
         <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
           purchase.</p>
-      </div>
-      <div>
+      </article>
+      <article>
         <i class="fas fa-truck"></i>
         <h2>Fast Shipping</h2>
         <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if
           you are not satisfied. </p>
-      </div>
-      <div>
+      </article>
+      <article>
         <i class="fas fa-battery-full"></i>
         <h2>Quality Assurance</h2>
         <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
           pitch of your instrument. </p>
-      </div>
+      </article>
     </section>
     <section id="how-it-works">
-      <iframe id="how-it-works" width="550" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+      <iframe width="550" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </section>
     <section id="pricing">
-      <article>
+      <article class="card">
         <h3>Tenor Trombone</h3>
-        <p>600</p>
-        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.</p>
+        <p class="price">600</p>
+        <ul>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ul>
         <a>Select</a>
       </article>
-      <article>
+      <article class="card">
         <h3>Bass Trombone</h3>
-        <p>900</p>
-        <p>Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.</p>
+        <p class="price">900</p>
+        <ul>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ul>
         <a>Select</a>
       </article>
-      <article>
+      <article class="card">
         <h3>Valve Trombone</h3>
-        <p>1200</p>
-        <p>Plays similar to a Trumpet Great for Jazz Bands Lorem ipsum dolor. Lorem ipsum.</p>
+        <p class="price">1200</p>
+        <ul>
+          <li>Plays similar to a Trumpet</li>
+          <li>Great for Jazz Bands</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ul>
         <a>Select</a>
       </article>
     </section>
   </main>
   <footer>
-    <a>Privacy</a>
-    <a>Terms</a>
-    <a>Contact</a>
-    <p>Copyright 2016, Original Trombones</p>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Contact</a>
+    <p id="copyright">Copyright 2016, Original Trombones</p>
   </footer>
   <!--test from FreeCC-->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

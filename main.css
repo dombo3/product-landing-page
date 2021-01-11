@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EEE;
+  min-width: 320px;
+}
+
+input[type="submit"],
+input[type="email"] {
+  font-family: inherit;
+  font-size: 100%;
+  border: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#header-img {
+  width: 280px;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  background-color: #EEE;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav-bar ul {
+  text-align: center;
+}
+
+#nav-bar ul li {
+  margin-bottom: 5px;
+}
+
+main::before {
+  display: block;
+  content: "";
+  height: 176px;
+}
+
+i.fas {
+  display: none;
+}
+
+#action {
+  padding: 20px 10px;
+}
+
+#action #title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#action form {
+  display: flex;
+  flex-direction: column;
+}
+
+#email, #submit {
+  display: block;
+}
+
+#email {
+  padding: 8px 5px;
+  width: 280px;
+  align-self: center;
+  font-size: 0.8em;
+  border: 1px solid #999;
+}
+
+#submit {
+  align-self: center;
+  background-color: orange;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+#features {
+  text-align: center;
+}
+
+#features article {
+  padding: 20px 10px;
+}
+
+#features::before {
+  display: block;
+  content: "";
+  height: 176px;
+  margin: -176px 0 0;
+}
+
+#how-it-works {
+  min-width: 320px;
+  margin-bottom: 50px;
+}
+
+#how-it-works iframe {
+  width: 100%;
+}
+
+#how-it-works::before {
+  display: block;
+  content: "";
+  height: 176px;
+  margin: -176px 0 0;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#pricing .card {
+  max-width: 300px;
+  width: 300px;
+  margin: 0 5px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+#pricing .card h3 {
+  margin: 0;
+  padding: 15px 0;
+  background-color: #DDD;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1em;
+  font-size: 1em;
+}
+
+#pricing .card .price {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+#pricing .card .price::before {
+  content: "$"
+}
+
+#pricing .card li {
+  margin: 10px 0;
+}
+
+#pricing .card a {
+  display: block;
+  width: max-content;
+  margin: 0 auto 10px auto;
+  background-color: orange;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+#pricing::before {
+  display: block;
+  content: "";
+  height: 176px;
+  margin: -176px 0 0;
+}
+
+footer {
+  min-height: 80px;
+  margin-top: 3 0px;
+  padding: 5px 20px;
+  background-color: #DDD;
+  text-align: right;
+}
+
+footer a {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+footer #copyright {
+  margin: 0;
+  font-size: 0.9em;
+  color: #444;
+}
