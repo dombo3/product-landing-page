@@ -18,33 +18,6 @@ ul {
   padding: 0 15px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #EEE;
-  min-width: 320px;
-}
-
-@media (min-width: 525px) {
-  main {
-    padding-top: 105px;
-    margin-top: 0;
-    -webkit-background-clip: content-box;
-    background-clip: content-box;
-  }
-
-  #pricing, #how-it-works, #features {
-    padding-top: 105px;
-    margin-top: -105px;
-    -webkit-background-clip: content-box;
-    background-clip: content-box;
-  }
-}
 #header-img {
   width: 320px;
   display: block;
@@ -219,6 +192,21 @@ main {
   cursor: pointer;
 }
 
+@media (min-width: 525px) {
+  main {
+    padding-top: 105px;
+    margin-top: 0;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+  }
+
+  #pricing, #how-it-works, #features {
+    padding-top: 105px;
+    margin-top: -105px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+  }
+}
 @media (min-width: 550px) {
   #features .feature {
     flex-direction: row;
@@ -261,6 +249,18 @@ footer #copyright {
   margin: 0;
   font-size: 0.9em;
   color: #3c3c3c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EEE;
+  min-width: 320px;
 }
 
 /*# sourceMappingURL=main.css.map */

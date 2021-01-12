@@ -121,6 +121,15 @@ main {
   }
 }
 
+@media (min-width: 525px) {
+  main {
+    @include jump-link(105px, 0);
+  }
+  #pricing, #how-it-works, #features {
+    @include jump-link(105px);
+  }
+}
+
 @media (min-width: 550px) {
   #features {
     .feature {
