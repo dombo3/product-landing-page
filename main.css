@@ -73,15 +73,15 @@ ul {
   min-width: max-content;
 }
 
-main::before {
-  display: block;
-  content: "";
-  height: 176px;
+main {
+  padding-top: 200px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
 }
 
-@media (min-width: 445px) {
-  main::before {
-    height: 105px;
+@media (min-width: 525px) {
+  main {
+    padding-top: 105px;
   }
 }
 
@@ -171,11 +171,20 @@ i.fas {
   padding: 20px 10px;
 }
 
-#features::before {
-  display: block;
-  content: "";
-  height: 176px;
-  margin: -176px 0 0;
+#features {
+  padding-top: 200px;
+  margin-top: -200px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+
+@media (min-width: 525px) {
+  #features {
+    padding-top: 105px;
+    margin-top: -105px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+  }
 }
 
 #how-it-works {
@@ -190,11 +199,20 @@ i.fas {
   margin: 0 auto;
 }
 
-#how-it-works::before {
-  display: block;
-  content: "";
-  height: 176px;
-  margin: -176px 0 0;
+#how-it-works {
+  padding-top: 200px;
+  margin-top: -200px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+
+@media (min-width: 525px) {
+  #how-it-works {
+    padding-top: 105px;
+    margin-top: -105px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+  }
 }
 
 #pricing {
@@ -254,11 +272,20 @@ i.fas {
   cursor: pointer;
 }
 
-#pricing::before {
-  display: block;
-  content: "";
-  height: 176px;
-  margin: -176px 0 0;
+#pricing {
+  padding-top: 200px;
+  margin-top: -200px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+
+@media (min-width: 525px) {
+  #pricing {
+    padding-top: 105px;
+    margin-top: -105px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+  }
 }
 
 footer {
