@@ -1,0 +1,17 @@
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin jump-link($padding-top, $margin-top: null) {
+  padding-top: $padding-top;
+  @if ($margin-top == null) {
+    margin-top: -$padding-top;
+  } @else {
+    margin-top: -$margin-top;
+  }
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}

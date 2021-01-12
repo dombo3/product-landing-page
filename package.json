@@ -1,0 +1,23 @@
+{
+  "name": "product-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dombo3/product-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dombo3/product-landing-page/issues"
+  },
+  "homepage": "https://github.com/dombo3/product-landing-page#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.32.4"
+  }
+}

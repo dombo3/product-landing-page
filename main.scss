@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import 'helpers/common', 'helpers/mixins', 'helpers/variables';
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+  background-color: $primary-color;
+  min-width: 320px;
+}
+
+@media (min-width: 525px) {
+  main {
+    @include jump-link(105px, 0);
+  }
+  #pricing, #how-it-works, #features {
+    @include jump-link(105px);
+  }
+}
+
+@import 'layout/header', 'layout/main', 'layout/footer';
