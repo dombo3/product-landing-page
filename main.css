@@ -234,6 +234,10 @@ main {
     flex-direction: row;
   }
 }
+.hidden {
+  display: none;
+}
+
 footer {
   min-height: 80px;
   margin-top: 0;
